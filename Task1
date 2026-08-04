@@ -1,0 +1,20 @@
+import java.util.*;
+import java.util.streamcollectors;
+public class salaryTransformationSystem{
+  public static void main(str[] args){
+    scanner sc=new Scanner(system.in);
+    int n=sc.nextInt();
+    List<Integer>salaries=new ArrayList<>();
+    for(int i=0;i<n;i++){
+      salaries.add(sc.nextInt());
+    }
+    List<Integer>updatedsalaries=salaries stream();
+    .main(salary>(int)(salary*1.10))
+    .collect(collects.toList());
+    for(int salary : updated salaries){
+      system.out.print(salary+"");
+
+    }
+    sc.close();
+  }
+}
